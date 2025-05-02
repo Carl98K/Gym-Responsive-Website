@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym First</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/icons8-deadlift-50.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <div id="nav-logo">
+            <img src="images/icons8-deadlift-50.png" alt="barbell icon">
+            <p>GYM FIRST</p>
+        </div>
+
+        <ul id="nav-list" class="list">
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Membership</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li id="mobile-menu"><a href="#" onclick="showSidebar()"><svg id="burger-button"
+                        xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px"
+                        fill="#f1f1f1">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+
+        <ul id="sidebar-list" class="list">
+            <li><a href="#" onclick="hideSideBar()"><svg id="close-button" xmlns="http://www.w3.org/2000/svg"
+                        height="30px" viewBox="0 -960 960 960" width="30px" fill="#f1f1f1">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="images/Gym Man 3.jpg" alt="man lifting barbell">
+
+        <h1>The only one stopping you is <span>you</span></h1>
+    </main>
+
+    <section id="about">
+        <h2>ABOUT US</h2>
+
+        <div>
+            <img src="images/Gym.jpg" alt="gym interior">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas perferendis laboriosam! Non
+                reiciendis animi in dignissimos minima id voluptatem, molestiae harum omnis atque enim ab provident
+                autem
+                quam! Necessitatibus.
+                <br><br>
+                Harum laboriosam non error at unde, ipsum magnam mollitia aut cupiditate numquam, eaque eligendi cumque
+                praesentium dolor odit doloribus consequuntur perspiciatis earum soluta dolorem aliquid repellendus
+                architecto voluptatum velit? Ut.
+            </p>
+        </div>
+
+
+    </section>
+
+    <section id="membership">
+        <h2>MEMBERSHIPS</h2>
+
+        <div id="membership-tiles">
+            <div id="flexi" class="tiles">
+                <p>FLEXI</p>
+
+                <img src="images/dumbbell.png" alt="dumbell icon" class="dumbell-icon">
+
+                <p><span>&#8369; 500</span> / year</p>
+                <p>&#10004; Unlimited Classes per year</p>
+                <p>&#10004; 3 Classes Per Day</p>
+                <p>&#10004; No Joining Fees</p>
+
+                <button class="join-button">Join Today</button>
+            </div>
+
+            <div id="all-access" class="tiles">
+                <p>ALL ACCESS</p>
+
+                <img src="images/dumbbell.png" alt="dumbell icon" class="dumbell-icon">
+
+                <p><span>&#8369; 2000</span> / year</p>
+                <p>&#10004; Unlimited Classes per year</p>
+                <p>&#10004; 3 Classes Per Day</p>
+                <p>&#10004; No Joining Fees</p>
+
+                <button class="join-button">Join Today</button>
+            </div>
+
+            <div id="off-peak" class="tiles">
+                <p>OFF-PEAK</p>
+
+                <img src="images/dumbbell.png" alt="dumbell icon" class="dumbell-icon">
+
+                <p><span>&#8369; 1500</span> / year</p>
+                <p>&#10004; Unlimited Classes per year</p>
+                <p>&#10004; 3 Classes Per Day</p>
+                <p>&#10004; No Joining Fees</p>
+
+                <button class="join-button">Join Today</button>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div id="contact">
+            <p class="footer-p">gymfirst.com</p>
+            <p class="footer-p">[+63] 0948 451 5703</p>
+            <p class="footer-p">5th Floor H. Jenro Bldg, J. P. Mabini St, <br> Montalban, Rizal</p>
+        </div>
+        <div id="subscribe">
+            <form action="">
+                <label for="text-box" id="subscribe-letter">Subscribe to our newsletter</label>
+                <input type="text" id="text-box">
+                <button id="submit-button">Submit</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
