@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    font-family: "Teko", sans-serif;
+    font-family: "Electrolize", sans-serif;
     background-color: black;
 }
 
@@ -1075,7 +1075,7 @@ footer {
 
 @media (min-width: 1600px) {
     h2 {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
 
     nav {
@@ -1105,7 +1105,8 @@ footer {
 
     #nav-logo p {
         color: white;
-        font-size: 3em;
+        font-size: 2.2vw;
+        font-weight: bold;
         margin-left: 5px;
     }
 
@@ -1115,7 +1116,7 @@ footer {
 
     #nav-list a {
         color: white;
-        font-size: 1.9em;
+        font-size: 1.4vw;
     }
 
     #mobile-menu {
@@ -1140,8 +1141,8 @@ footer {
 
     main h1 {
         position: absolute;
-        top: 80px;
-        font-size: 5vw;
+        top: 50px;
+        font-size: 3vw;
         text-align: center;
         line-height: 120px;
     }
@@ -1166,22 +1167,21 @@ footer {
         gap: 50px;
         width: 1000px;
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     #about img {
         width: 450px;
         height: 550px;
         border-radius: 10px;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     #about p {
-        flex: 1;
         color: white;
-        font-size: 1.7em;
+        font-size: 1.45em;
         text-align: justify;
-        line-height: 65px;
+        line-height: 45px;
         margin-top: 0px;
         margin-right: 0;
     }
@@ -1225,18 +1225,20 @@ footer {
     .tiles p {
         color: black;
         font-size: 1.3em;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     .tiles p:nth-child(1) {
         color: black;
         font-size: 1.8em;
+        font-weight: bold;
         margin-top: 20px;
     }
 
     .tiles p span:nth-child(1) {
         color: black;
-        font-size: 1.4em;
+        font-size: 1.3em;
+        font-weight: bold;
     }
 
     .join-button {
@@ -1262,7 +1264,8 @@ footer {
     }
 
     .footer-p {
-        font-size: 1.5em;
+        font-size: 1.6em;
+        font-weight: normal;
     }
 
     #contact {
@@ -1272,6 +1275,8 @@ footer {
     #contact p {
         text-align: justify;
         line-height: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     #subscribe {
@@ -1286,17 +1291,17 @@ footer {
     }
 
     #text-box {
-        width: 270px;
-        height: 40px;
+        width: 310px;
+        height: 42px;
         margin-top: 10px;
     }
 
     #submit-button {
-        width: 70px;
-        height: 37px;
+        width: 80px;
+        height: 40px;
         background-color: rgb(24, 24, 24);
         color: white;
-        font-size: 0.95em;
+        font-size: 1em;
         text-transform: uppercase;
     }
 }
