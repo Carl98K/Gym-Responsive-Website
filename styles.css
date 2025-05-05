@@ -87,29 +87,41 @@ nav {
     top: 0;
     right: 0;
     height: 100vh;
-    width: 100%;
+    width: 45%;
     z-index: 999;
-    background-color: #111111;
+    background-color: #070707;
+    filter: blur(0px);
     display: none;
     /*flex originally*/
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
+    align-content:flex-start;
+    gap: 10px;
 }
 
 #sidebar-list li {
-    margin-top: 50px;
+    margin-top: 15px;
 }
-
 
 #sidebar-list a {
     color: white;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 #sidebar-list a:hover {
     color: rgb(253, 239, 46);
+}
+
+.side-list{
+    margin-left: 20px;
+}
+
+.side-close{
+    margin-left: 5px;
+}
+
+#close-button{
+    height: 20px;
 }
 
 #mobile-menu {
@@ -327,6 +339,10 @@ footer {
         width: 25px;
     }
 
+    #close-button{
+        height: 25px;
+    }
+
     #sidebar-list a {
         font-size: 1em;
     }
@@ -477,6 +493,10 @@ footer {
     #burger-button {
         height: 30px;
         width: 30px;
+    }
+
+    #close-button{
+        height: 30px;
     }
 
     #about img {
@@ -642,6 +662,18 @@ footer {
 
     #sidebar-list a {
         font-size: 1.4em;
+    }
+
+    #close-button{
+        height: 35px;
+    }
+
+    .side-list{
+        margin-left: 30px;
+    }
+    
+    .side-close{
+        margin-left: 15px;
     }
 
     main {
